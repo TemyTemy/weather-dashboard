@@ -76,7 +76,7 @@ function displayWeatherSummary() {
       $(".weather-forecast").css('display','none');
     } else {
       $(".weather-summary").css('display','block');
-      $(".weather-forecast").css('display','block');
+      $(".weather-forecast").css('display','flex');
     }
   }
   
