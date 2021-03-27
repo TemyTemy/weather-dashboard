@@ -205,7 +205,7 @@ body {
   
   .low {
     background-color: green;
-    color: var(--white);
+    color: white;
   }
   
   .moderate {
