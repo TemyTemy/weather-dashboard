@@ -1,7 +1,7 @@
 # Weather Dashboard
  A weather dashboard that displays weather conditions for multiple cities. 
 
-**Technologies Used: HTML5 , CSS3, JavaScript, JQuery, Bootstrap**
+**Technologies Used: HTML5 , CSS3, JavaScript, JQuery, Bootstrap, APIS**
 
 
 
