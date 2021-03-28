@@ -16,11 +16,12 @@
 </head>
 
 <body>
-  <header class="container jumbotron">
+  <header class="jumbotron container">
     <h1>Weather Dashboard</h1>
   </header>
-  <main class="d-flex">
-     <aside class="col-sm-4 cities">
+  <main class="container d-flex">
+    <div class="row">
+      <aside class="col-sm-4 cities">
         <label>Search for a City:</label>
         <div class="city">
           <input type="text" id="city">
@@ -29,7 +30,7 @@
           </div>
         </div>
         <div class="city-list"></div>
-    </aside>
+      </aside>
       <section class="col-sm-8">
         <div class="weather-summary"></div>
         <div class="weather-forecast">
@@ -37,10 +38,9 @@
             <p>5-Day Forecast:</p>
           </div>
         <div class="forecast">  
-          </div>
-        
-    
-</section>
+        </div>            
+      </section>
+    </div>  
 </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
