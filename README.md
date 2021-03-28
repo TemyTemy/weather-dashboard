@@ -78,5 +78,5 @@
 
 ## Links on Github
 
-- The source code repository is available at this link: https://github.com/TemyTemy/day-planner
-- The home page to the website is available at this link: https://temytemy.github.io/day-planner/
+- The source code repository is available at this link: https://github.com/TemyTemy/weather-dashboard
+- The home page to the website is available at this link: https://temytemy.github.io/weather-dashboard/
