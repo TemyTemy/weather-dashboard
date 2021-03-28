@@ -1,7 +1,7 @@
 # Weather Dashboard
  A weather dashboard that displays weather conditions for multiple cities. 
 
-**Technologies Used: HTML5 , CSS3, JavaScript, JQuery, Bootstrap, APIS**
+**Technologies Used: HTML5 , CSS3, JavaScript, JQuery, Bootstrap, API**
 
 
 
@@ -44,18 +44,39 @@
 
 **Image 3**
 
- ![alt text](https://github.com/TemyTemy/day-planner/blob/main/Assets/screenshot3.PNG)
+ !![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot3.PNG)
 
 
 
 
 **Image 4**
 
- ![alt text](https://github.com/TemyTemy/day-planner/blob/main/Assets/screenshot4.PNG)
+ ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot4.PNG)
 
 
 
 
 **Image 5**
 
- ![alt text](https://github.com/TemyTemy/day-planner/blob/main/Assets/screens
+ ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot5.PNG)
+
+
+
+**Image 6**
+
+ ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot6.PNG)
+
+
+
+**Image 7**
+
+ ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot7.PNG)
+
+
+
+
+
+## Links on Github
+
+- The source code repository is available at this link: https://github.com/TemyTemy/day-planner
+- The home page to the website is available at this link: https://temytemy.github.io/day-planner/
