@@ -29,7 +29,7 @@
 
 **Image 1**  
 
-  ![alt text](https://github.com/TemyTemy/day-planner/blob/main/Assets/screenshot1.PNG)
+  ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot1.PNG)
 
 
 
@@ -37,7 +37,7 @@
 
 **Image 2**
 
- ![alt text](https://github.com/TemyTemy/day-planner/blob/main/Assets/screenshot2.PNG)
+ ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot2.PNG)
 
 
 
