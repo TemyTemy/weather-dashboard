@@ -11,7 +11,7 @@
 - User can search for a city and will be presented with current and future weather conditions for the city.
 - The searched city is added to the search history.
 - The weather information displays the city name, the date, an icon showing the weather condition, temperature, humidity, wind speed and the UV index.
-- UV index has colours to show whether the weather condition is low (Green), moderate (yellow), high (orange), very high(red) and extreme (violet);
+- UV index has colours to show whether the weather condition is low (Green), moderate (yellow), high (orange), very high(red) and extreme (violet).
 - User can view 5-day weather forecast that displays the date, an icon showing the weather condition, the temperature and humidity.
 - User can click on a previously searched city to view current and future weather conditions.
 - The application is responsive.
@@ -36,7 +36,6 @@
 **Image 2**
 
  ![alt text](https://github.com/TemyTemy/weather-dashboard/blob/master/assets/screenshot2.PNG)
-
 
 **Image 3**
 
