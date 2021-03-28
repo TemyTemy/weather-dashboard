@@ -51,6 +51,11 @@ function loadWeatherSummary() {
     }
   }
 
+  $("button").click(function() {
+    searchWeatherForCity();
+  }
+);
+
   // Search for a summary of weather details for a city
 function searchWeatherForCity() {
     var cityName = $("input").val();
@@ -61,10 +66,7 @@ function searchWeatherForCity() {
     }
   }
 
-  $("button").click(function() {
-    searchWeatherForCity();
-  }
-);
+  
 
 // Displays weather summary
 function displayWeatherSummary() {
