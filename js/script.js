@@ -26,10 +26,10 @@ var EMPTY_WEATHER_DETAILS = {
 const WEATHER_DETAILS_STORAGE_KEY = "weather";
 const OPEN_WEATHER_API_KEY = "cfaac070928fb11f97b715a91a712cce";
 const OPEN_WEATHER_URL =
-  "http://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid=" + OPEN_WEATHER_API_KEY;
+  "https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid=" + OPEN_WEATHER_API_KEY;
 
 const OPEN_WEATHER_FORECAST_URL =
-  "http://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=imperial&appid=" + OPEN_WEATHER_API_KEY;
+  "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=imperial&appid=" + OPEN_WEATHER_API_KEY;
 
   //  Save weather summary to local storage
 function saveWeatherSummary() {
