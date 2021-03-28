@@ -1,5 +1,5 @@
 // Weather details object structure
-var WEATHER_DETAILS = {
+const WEATHER_DETAILS = {
     city: '',
     date: '',
     temperature: '',
@@ -19,16 +19,16 @@ var WEATHER_DETAILS = {
   }
   
   // Empty weather details
-var EMPTY_WEATHER_DETAILS = {
+const EMPTY_WEATHER_DETAILS = {
 
 }
 
-var WEATHER_DETAILS_STORAGE_KEY = "weather";
-var OPEN_WEATHER_API_KEY = "cfaac070928fb11f97b715a91a712cce";
-var OPEN_WEATHER_URL =
+const WEATHER_DETAILS_STORAGE_KEY = "weather";
+const OPEN_WEATHER_API_KEY = "cfaac070928fb11f97b715a91a712cce";
+const OPEN_WEATHER_URL =
   "http://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid=" + OPEN_WEATHER_API_KEY;
 
-var OPEN_WEATHER_FORECAST_URL =
+const OPEN_WEATHER_FORECAST_URL =
   "http://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&units=imperial&appid=" + OPEN_WEATHER_API_KEY;
 
   //  Save weather summary to local storage
@@ -82,14 +82,6 @@ function displayWeatherSummary() {
     }
   }
   
-  
-  function loadWeatherSummary();
-  if (WEATHER_DETAILS.city) {
-    displayWeatherSummary();
-  } else {
-    $(".weather-summary").css('display','none');
-    $(".weather-forecast").css('display','none');
-  }
   
   // Construct the weather summary section
 function constructSummarySection() {
@@ -219,6 +211,14 @@ function constructSummarySection() {
     if (existingPreviousSearchIndex < 0) {
       WEATHER_DETAILS.previousSearches.push(city);
     }
-  
   }
+
+  loadWeatherSummary();
+  if (WEATHER_DETAILS.city) {
+    displayWeatherSummary();
+  } else {
+    $(".weather-summary").css('display','none');
+    $(".weather-forecast").css('display','none');
+  }
+  
   
