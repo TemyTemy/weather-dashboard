@@ -1,5 +1,5 @@
 // Weather details object structure
-const WEATHER_DETAILS = {
+var WEATHER_DETAILS = {
     city: '',
     date: '',
     temperature: '',
@@ -18,8 +18,8 @@ const WEATHER_DETAILS = {
     previousSearches: []
   }
   
-  // Empty weather details
-const EMPTY_WEATHER_DETAILS = {
+// Empty weather details
+var EMPTY_WEATHER_DETAILS = {
 
 }
 
@@ -220,5 +220,3 @@ function constructSummarySection() {
     $(".weather-summary").css('display','none');
     $(".weather-forecast").css('display','none');
   }
-  
-  
